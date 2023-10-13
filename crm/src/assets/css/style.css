@@ -1,0 +1,19 @@
+.product-btn{
+    background:rgb(100, 100, 100)!important;
+    color: white !important;
+}
+
+/* Increase the width and height of the toast notifications */
+.vue-toast-notification {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    width: 450px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    max-height: 50px; /* Maximum height if you want to limit it */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
